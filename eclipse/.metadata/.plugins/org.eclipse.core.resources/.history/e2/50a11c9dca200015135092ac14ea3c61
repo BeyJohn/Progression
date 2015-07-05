@@ -1,0 +1,16 @@
+[
+{
+  "modid": "progressionmod",
+  "name": "Progression",
+  "description": "This mod is being created specially for a modpack.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["BeyJohn"],
+  "credits": "To all the mod authors, \nand their mods, that gave \nme ideas for this mod.",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

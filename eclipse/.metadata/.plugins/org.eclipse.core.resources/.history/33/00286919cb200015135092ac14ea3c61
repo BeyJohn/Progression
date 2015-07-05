@@ -1,0 +1,26 @@
+package com.beyjohn.Main;
+
+import com.beyjohn.lib.*;
+
+import cpw.mods.fml.common.*;
+import cpw.mods.fml.common.Mod.*;
+import cpw.mods.fml.common.event.*;
+
+
+@Mod(modid = RefStrings.MODID, name = RefStrings.NAME, version = RefStrings.VERSION)
+public class MainRegistry 
+{
+	@EventHandler
+	public static void PreLoad(FMLPreInitializationEvent PreEvent)
+	{
+		
+	}
+	public static void Load(FMLInitializationEvent Event)
+	{
+		
+	}
+	public static void PostLoad(FMLPostInitializationEvent PostEvent)
+	{
+		
+	}
+}

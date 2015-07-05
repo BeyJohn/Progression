@@ -1,0 +1,14 @@
+package com.beyjohn.block;
+
+import net.minecraft.block.Block;
+import net.minecraft.block.material.Material;
+
+public class Leadb extends Block
+{
+
+	protected Leadb(Material arg0) 
+	{
+		super(arg0);
+	}
+
+}

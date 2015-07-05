@@ -1,0 +1,8 @@
+package com.beyjohn.Main;
+
+import com.beyjohn.lib.*;
+
+@Mod(modid = RefStrings.MODID, name = RefStrings.NAME, version = RefStrings.VERSION)
+public class MainRegistry {
+
+}

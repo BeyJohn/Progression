@@ -1,0 +1,19 @@
+package com.beyjohn.lib;
+
+import net.minecraft.block.Block;
+
+public class ModBlocks 
+{
+	public static Block LeadOre;
+	public static Block SilverOre;
+	public static Block CopperOre;
+	public static Block TinOre;
+	public static Block LithiumOre;
+	public static Block TungstenOre;
+	
+	 public static void init()
+	 {
+		 LeadOre = new com.beyjohn.block.LeadOre();
+		 SilverOre = new com.beyjohn.block.SilverOre();
+	 }
+}

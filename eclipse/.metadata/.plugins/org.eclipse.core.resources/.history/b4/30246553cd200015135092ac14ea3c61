@@ -1,0 +1,20 @@
+package com.beyjohn.item;
+
+public class Graphene 
+{
+	public static void mainRegistry()
+	{
+		initializeItem();
+		registerItem();
+	}
+	
+	public static void initializeItem()
+	{
+		
+	}
+	
+	public static void registerItem()
+	{
+		
+	}
+}

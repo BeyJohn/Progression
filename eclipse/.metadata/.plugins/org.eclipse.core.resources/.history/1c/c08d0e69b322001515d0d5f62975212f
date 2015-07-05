@@ -1,0 +1,8 @@
+package com.beyjohn.misc;
+
+import cpw.mods.fml.common.IWorldGenerator;
+
+public class WorldGen implements IWorldGenerator 
+{
+
+}

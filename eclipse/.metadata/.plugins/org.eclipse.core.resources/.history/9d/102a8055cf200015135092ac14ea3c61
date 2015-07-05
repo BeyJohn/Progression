@@ -1,0 +1,25 @@
+package com.beyjohn.block;
+
+import net.minecraft.block.Block;
+import net.minecraft.block.material.Material;
+
+public class LeadBlock 
+{
+	public static void mainRegistry()
+	{
+		initializeBlock();
+		registerBlock();
+	}
+	
+	public static Block LeadBlock;
+	
+	private static void registerBlock() 
+	{
+		LeadBlock = new LeadBlock(Material.iron).setBlockName("leadb").set;
+	}
+
+	private static void initializeBlock() 
+	{
+		
+	}
+}

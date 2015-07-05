@@ -1,0 +1,39 @@
+package com.beyjohn.Main;
+
+import com.beyjohn.block.LeadBlock;
+import com.beyjohn.item.Graphene;
+import com.beyjohn.lib.*;
+import com.beyjohn.misc.WorldGen;
+
+import cpw.mods.fml.common.*;
+import cpw.mods.fml.common.Mod.*;
+import cpw.mods.fml.common.event.*;
+import cpw.mods.fml.common.registry.GameRegistry;
+
+
+@Mod(modid = RefStrings.MODID, name = RefStrings.NAME, version = RefStrings.VERSION)
+public class MainRegistry 
+{
+	@SidedProxy(clientSide = RefStrings.CLIENTSIDE, serverSide = RefStrings.SERVERSIDE)
+	public static ServerProxy proxy;
+	
+	
+	@EventHandler
+	public static void PreLoad(FMLPreInitializationEvent PreEvent)
+	{
+		Graphene.mainRegistry();
+		LeadBlock.mainRegistry();
+		proxy.registerRenderInfo();
+		GameRegistry.registerWorldGenerator(new WorldGen(), 1);
+	}
+	@EventHandler
+	public static void Load(FMLInitializationEvent Event)
+	{
+		
+	}
+	@EventHandler
+	public static void PostLoad(FMLPostInitializationEvent PostEvent)
+	{
+		
+	}
+}
